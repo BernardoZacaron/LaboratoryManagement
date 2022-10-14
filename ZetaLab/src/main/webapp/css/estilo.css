@@ -1,0 +1,176 @@
+    #main-login{
+        background: #a3edf0;
+        height: 100%;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    body{
+        background-color: #34b4eb;
+        padding-bottom: 20px;
+    }
+    
+    .campo-linha{
+        margin-right: 3%;
+    }
+    
+    .alinhar-centro{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .titulo{
+        text-align: center;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    
+    .icone-menu{
+        text-align: left;
+    }
+
+    #ultimo-item{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .item-menu{
+        font-size: 1.10em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .font1{
+        font-size: 1.6em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: -1%;
+        margin-left: 80px;
+        color: aliceblue;
+    }
+
+    #box-login{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        background: white;
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        padding: 20px;
+    }
+  
+    
+    #texto-header{
+        grid-area: texto;
+    }
+    #box-conteudo{
+        margin-top: 15px;
+        margin-bottom: 5%;
+        margin-right: 10px;
+        width: 78%;
+        height: 75%;
+        position: absolute;
+        position: fixed;
+        right: 0;
+        border-radius: 0px;
+        border: 2px solid #34b4eb;
+        padding: 10px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        background-color: white;
+        overflow: auto;
+}
+    #menu-principal{
+        margin-top: 15px;
+        margin-bottom: 5%;
+        margin-left: 10px;
+        width: 20%;
+        height: 75%;
+        position: absolute;
+        position: fixed;
+        left: 0;
+        border-radius: 25px;
+        border: 2px solid #34b4eb;
+        padding: 10px;
+        background-color: white;
+    }
+    
+    #img-logo{
+        grid-area: logo;
+        height: 100%;
+        margin-right: 40px;
+    }
+    header{
+        grid-area: header;
+        background: #34b4eb;
+        height: 150px;
+        width: 100%;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 10% 1fr;
+        grid-template-areas:
+        'logo texto';
+    }
+    
+    .foto{
+        grid-area: foto;
+    }
+    .titulo-card{
+        grid-area: titulo;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .exame-info{
+        grid-area: info;
+    }
+    .btn-acao{
+        margin-top: 85%;
+    }
+    .btn-abrir{
+        vertical-align: middle;
+        position: absolute;
+        margin-top: 100%;
+    }
+    .btn-excluir{
+        grid-area: excluir;
+        margin-top: 100%;
+    }
+    .acoes{
+        grid-area: acoes;
+        border-left: 1px solid black;
+        padding:1px;
+        margin-bottom: 15%; margin-top: 15%;
+        position: relative;
+    }
+    .card-exame{
+        display: grid;
+        grid-template-columns: 8% 1fr;
+        grid-template-areas: 
+        "foto titulo" 
+        "foto info";
+        border:1px solid black;
+        margin-bottom: 10px;
+    }
+    
+    .card-pedido{
+        display: grid;
+        grid-template-columns: 8% 1fr 2%;
+        grid-template-areas: 
+        "foto titulo acoes" 
+        "foto info acoes";
+        border:1px solid black;
+        margin-bottom: 10px;
+    }
+    
+    .linha-form{
+        display: flex;
+    }
+    
+    .box-resultado{
+        border:1px solid black;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 2em;
+    }
